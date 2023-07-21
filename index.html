@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Kr14</title>
+    <link rel="stylesheet" href="styles/styles.css">
+</head>
+<body>
+<header class="header">
+    <div class="container">
+        <img src="images/Logo.png" alt="Logo">
+    </div>
+</header>
+<section class="main">
+    <div class="container">
+        <div class="first-sector">
+            <div class="title">
+                Get your free account
+            </div>
+            <div class="text" id = "tryForFree">
+                Try homeWorks BUSINESS free for 15 days. Downgrade to Basic (Free Forever) anytime.
+            </div>
+            <div class="form">
+                <div class="item delete">
+                    <div class="label">Full Name</div>
+                    <input type="text" class="input" value="Antony Swarowski" id="FullName">
+                    <div class="added_text">Заполните поле Full Name</div>
+                    <div class="added_text">Full Name может содержать только буквы и пробел</div>
+                </div>
+                <div class="item delete2">
+                    <div class="label">Your username</div>
+                    <input type="text" class="input"  id="Nickname">
+                    <div class="added_text">Заполните поле Your username</div>
+                    <div class="added_text">Your username может содержать только буквы, цифры, символ подчеркивания и тире</div>
+                </div>
+                <div class="item delete">
+                    <div class="label">E-mail</div>
+                    <input type="text" class="input"  id="E-mail">
+                    <div class="added_text">Заполните поле E-mail</div>
+                    <div class="added_text">Введите корректный E-mail</div>
+                </div>
+                <div class="item delete2">
+                    <div class="label">Password</div>
+                    <input type="text" class="input"  id="Password">
+                    <div class="added_text">Заполните поле Password</div>
+                    <div class="added_text password_text">Поле пароля должно содержать минимум 8 символов, среди которых есть:
+                        <br>
+                        - хотя бы одна буква в верхнем регистре
+                        <br>
+                        - хотя бы одна цифра
+                        <br>
+                        - хотя бы один спецсимвол</div>
+                </div>
+                <div class="item delete">
+                    <div class="label">Repeat Password</div>
+                    <input type="text" class="input"  id="RepeatPassword">
+                    <div class="added_text">Заполните поле Repeat Password</div>
+                    <div class="added_text">Пароли не совпадает</div>
+                </div>
+            </div>
+
+            <div class="agree">
+                <div class="icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="white" id="check" >
+                    <path d="M10.5,14.7928932 L17.1464466,8.14644661 C17.3417088,7.95118446 17.6582912,7.95118446 17.8535534,8.14644661 C18.0488155,8.34170876 18.0488155,8.65829124 17.8535534,8.85355339 L10.8535534,15.8535534 C10.6582912,16.0488155 10.3417088,16.0488155 10.1464466,15.8535534 L7.14644661,12.8535534 C6.95118446,12.6582912 6.95118446,12.3417088 7.14644661,12.1464466 C7.34170876,11.9511845 7.65829124,11.9511845 7.85355339,12.1464466 L10.5,14.7928932 Z"/>
+                </svg></div>
+                <div class="agree__text">Agree to our Terms of Service and Privacy Statement</div>
+            </div>
+            <div class="added_text">Должен согласиться</div>
+            <button class="button">Sign Up</button>
+             <a href="#" id="UndMainBtn">Already have an account?</a>
+
+        </div>
+        <div class="second-sector">
+            <img src="images/rocket.png" alt="rocket">
+        </div>
+    </div>
+</section>
+
+<div class="modal-wrapper">
+    <div class="modal">
+        <div id="dntReg">На вашу почту выслана ссылка, перейдите по ней, чтобы завершить регистрацию</div>
+        <button id="btnOk" >Ок</button>
+    </div>
+</div>
+
+<script src="scripts/script.js"></script>
+
+</body>
+</html>

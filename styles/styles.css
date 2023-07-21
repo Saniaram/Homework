@@ -1,0 +1,209 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: Nunito;
+    src: url("../fonts/Nunitobold.woff");
+    font-weight: 700;
+}
+
+body {
+    font-family: Nunito, sans-serif;
+    background: linear-gradient(to right, #F8F8FA 50%, #E5E5E5 50%);
+}
+
+.header .container {
+    padding-top: 27px;
+    padding-bottom: 56px;
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.main .container {
+    display: flex;
+}
+
+.first-sector {
+    padding: 56px 52px 191px 52px;
+}
+
+.second-sector {
+    padding-top: 116px;
+}
+
+.agree {
+    display: flex;
+    width: 452px;
+    border-bottom: 1px solid transparent;
+}
+
+.title {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 49px;
+    margin-bottom: 7px;
+    color: #000000;
+}
+
+.text {
+    max-width: 496px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 27px;
+    /* or 123% */
+    margin-bottom: 42px;
+    color: #636363;
+}
+
+.label {
+    font-size: 16px;
+    line-height: 27px;
+    /* or 169% */
+
+    color: #C6C6C4;
+}
+
+.input {
+    background-color: transparent;
+    border: none;
+    font-size: 20px;
+    line-height: 27px;
+    /* or 135% */
+    border-bottom: 1px solid #C6C6C4;
+    color: #323232;
+    width: 452px;
+    outline: none;
+    font-family: Nunito, sans-serif;
+    margin-bottom: 20px;
+}
+
+.agree {
+    margin-top: 10px;
+    margin-bottom: 40px;
+    align-items: center;
+    cursor: pointer;
+}
+
+.icon {
+    width: 16px;
+    height: 16px;
+    background-color: #3366cc;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    border-radius: 3px;
+}
+
+.icon svg {
+    transform: scale(1.4);
+}
+
+.agree__text {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 27px;
+    /* or 169% */
+    margin-left: 10px;
+    color: #636363;
+    font-family: Nunito, sans-serif;
+}
+
+.button {
+    background: #DD3142;
+    border-radius: 40px;
+    font-size: 20px;
+    line-height: 27px;
+    /* or 135% */
+    border: none;
+    width: 210px;
+    height: 70px;
+    color: #FFFFFF;
+    text-align: center;
+    margin: 0 auto;
+    display: block;
+    cursor: pointer;
+}
+
+.main a {
+    display: block;
+    font-size: 16px;
+    line-height: 27px;
+    /* or 169% */
+    text-decoration: none;
+    color: #636363;
+    margin-top: 44px;
+    text-align: center;
+    font-family: Nunito, sans-serif;
+}
+
+.modal-wrapper {
+    display: none;
+    position: fixed;
+    background: linear-gradient(to right, #F8F8FA 45%, #E5E5E5 55%);
+    margin: auto;
+    top: 25%;
+    left: 25%;
+    padding: 0;
+    border: 5px solid #DD3142;
+    width: 50%;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+    -webkit-animation-name: animatetop;
+    -webkit-animation-duration: 0.4s;
+    animation-name: animatetop;
+    animation-duration: 0.4s
+}
+
+@-webkit-keyframes animatetop {
+    from {top:-300px; opacity:0}
+    to {top:25%; opacity:1}
+}
+
+@keyframes animatetop {
+    from {top:-300px; opacity:0}
+    to {top:25%; opacity:1}
+}
+
+.modal {
+    padding-top: 20px;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    text-align: center;
+}
+
+#btnOk {
+    margin: 20px auto 20px auto;
+    background: #DD3142;
+    border-radius: 40px;
+    font-size: 20px;
+    line-height: 27px;
+    /* or 135% */
+    border: none;
+    width: 100px;
+    height: 40px;
+    color: #FFFFFF;
+    text-align: center;
+    display: block;
+    cursor: pointer;
+}
+
+.added_text {
+    display: none;
+    width: 482px;
+    color: black;
+    margin-bottom: 20px;
+}
+
+.password_text {
+    width: 428px;
+}
